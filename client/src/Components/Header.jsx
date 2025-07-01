@@ -24,7 +24,7 @@ const Header = ({ user }) => {
         <div className="hidden md:flex items-center space-x-6">
           <Link to="/" className="text-white hover:text-yellow-300">Home</Link>
           <Link to="/history" className="text-white hover:text-yellow-300">History</Link>
-          <Link to="/contact" className="text-white hover:text-yellow-300">Contact</Link>
+          <Link to="/support" className="text-white hover:text-yellow-300">Contact</Link>
           <Link to="/profile" className="text-white hover:text-yellow-300">Profile</Link>
 
           {user && (

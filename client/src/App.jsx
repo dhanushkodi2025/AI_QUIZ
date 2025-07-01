@@ -7,6 +7,7 @@ import QuizPage from "./Components/QuizPage";
 import Profile from "./Components/Profile";
 import Results from "./Components/Results";
 import Layout from "./Components/Layout";
+import ContactSupport from "./Components/ContactSupport";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -54,6 +55,7 @@ function App() {
       <Route path="/quiz" element={<Layout user={user}><QuizPage /></Layout>} />
       <Route path="/results" element={<Layout user={user}><Results /></Layout>} />
       <Route path="/profile" element={<Layout user={user}><Profile /></Layout>} />
+      <Route path="/support" element={<ContactSupport />} />
     </Routes>
   );
 }
